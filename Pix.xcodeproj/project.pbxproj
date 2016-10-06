@@ -12,6 +12,7 @@
 		89B10E8C1DA6E13500D6475D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B10E8A1DA6E13500D6475D /* Main.storyboard */; };
 		89B10E8E1DA6E13500D6475D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B10E8D1DA6E13500D6475D /* Assets.xcassets */; };
 		89B10E911DA6E13500D6475D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B10E8F1DA6E13500D6475D /* LaunchScreen.storyboard */; };
+		89B10E991DA6E19F00D6475D /* PicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B10E981DA6E19F00D6475D /* PicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89B10E8D1DA6E13500D6475D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B10E901DA6E13500D6475D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B10E921DA6E13500D6475D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B10E981DA6E19F00D6475D /* PicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				89B10E861DA6E13500D6475D /* AppDelegate.swift */,
 				89B10E881DA6E13500D6475D /* ViewController.swift */,
 				89B10E8A1DA6E13500D6475D /* Main.storyboard */,
+				89B10E981DA6E19F00D6475D /* PicViewController.swift */,
 				89B10E8D1DA6E13500D6475D /* Assets.xcassets */,
 				89B10E8F1DA6E13500D6475D /* LaunchScreen.storyboard */,
 				89B10E921DA6E13500D6475D /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				89B10E891DA6E13500D6475D /* ViewController.swift in Sources */,
 				89B10E871DA6E13500D6475D /* AppDelegate.swift in Sources */,
+				89B10E991DA6E19F00D6475D /* PicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

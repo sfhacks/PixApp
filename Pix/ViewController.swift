@@ -20,6 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "showImage", sender: sender.titleLabel?.text)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destinationVC = segue.destination as? PicViewController, let imageName = sender as? String {
+            destinationVC.name = imageName
+        }
+    }
 
 }
 
